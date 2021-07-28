@@ -1,0 +1,130 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Check Login Functionality",
+        "description": "",
+        "id": "login-flow;check-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10402449000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "Login_Steps.user_navigate_to_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 775631400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User validate LoginLogo",
+            "match": {
+              "location": "Login_Steps.user_validate_LoginLogo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 111349800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User validate EmailHeader",
+            "match": {
+              "location": "Login_Steps.user_validate_EmailHeader()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65463200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User validate PassHeader",
+            "match": {
+              "location": "Login_Steps.user_validate_PassHeader()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66806700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User validate EmailTextBox",
+            "match": {
+              "location": "Login_Steps.user_validate_EmailTextBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76986400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User validate PasswordTextBox",
+            "match": {
+              "location": "Login_Steps.user_validate_PasswordTextBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59893200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User validate LoginButton",
+            "match": {
+              "location": "Login_Steps.user_validate_LoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49834800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Validate ForgotPasswordLink",
+            "match": {
+              "location": "Login_Steps.user_Validate_ForgotPasswordLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 206074000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Close the login page",
+            "match": {
+              "location": "Login_Steps.user_Close_the_login_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login Flow",
+    "description": "Description: Here we are going to check the login flow",
+    "id": "login-flow",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
